@@ -2,6 +2,10 @@
 
 Unity project for CS 417 MP0.
 
+## Contributor
+
+- Daryl Okeke
+
 ## Open the project
 
 - Unity version: `6000.5.6f1`
