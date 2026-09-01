@@ -6,6 +6,9 @@ public class ScoreController : MonoBehaviour
     [SerializeField]
     private int scrapCount = 0;
 
+    [SerializeField]
+    private AudioSource craftLockpickAudio;
+
     private int lockpickCost = 5;
 
     [SerializeField]
@@ -32,6 +35,7 @@ public class ScoreController : MonoBehaviour
             scrapCount -= lockpickCost;
             scrapText.text = "Scrap: " + scrapCount;
             lockpickText.text = "Lockpicks: " + lockpickCount;
+            craftLockpickAudio.Play();
         }
         else
         {
