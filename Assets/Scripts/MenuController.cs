@@ -11,7 +11,6 @@ public class MenuController : MonoBehaviour
     
     public void OpenCredits()
     {
-        audioSource.Play();
         Instantiate(creditsCanvasPrefab);
     }
     public void CloseCredits()
@@ -26,9 +25,4 @@ public class MenuController : MonoBehaviour
     {
         Application.Quit();
     }
-    public void PlayGame()
-    {
-        audioSource.Play();
-    }
-
 }
